@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import { Home, About, Contact } from "./pages";
+import { Home, About, Contact, Services } from "./pages";
 import Footer from "./components/Footer";
 
 function App() {
@@ -18,6 +18,9 @@ function App() {
           </Route>
           <Route path="/About">
             <About />
+          </Route>
+          <Route path="/services">
+            <Services />
           </Route>
           <Route path="/contact">
             <Contact />
